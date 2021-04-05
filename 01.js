@@ -27,7 +27,7 @@ function transformCSV(content) {
     }
 
     // 3. sort by price and transform currency format
-    const keys = arr.shift().split(', ').map(str => str.toLowerCase()); // [ 'name', 'category', 'price' ]
+    const keys = arr.shift().split(', ').map(str => str.toLowerCase());
     const transformedArr = arr.map(item => {
         const values = item.split(', ');
         return keys.reduce((obj, key, i) => ({ ...obj, [key]: values[i] }), {});

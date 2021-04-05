@@ -6,4 +6,4 @@ function masking(str) {
     return `${'*'.repeat(maskedStr.length)}${str.substr(str.length - 3)}`;
 }
 
-console.log( masking(secret_text) )
+console.log( masking(secret_text) );

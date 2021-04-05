@@ -12,5 +12,5 @@ function findChar(arr) {
     return completeArr.filter(ele => !arr.includes(ele))[0];
 }
 
-console.log(`list_letters_first = ${findChar(list_letters_first)}`)
-console.log(`list_letters_second = ${findChar(list_letters_second)}`)
+console.log(`list_letters_first = ${findChar(list_letters_first)}`);
+console.log(`list_letters_second = ${findChar(list_letters_second)}`);

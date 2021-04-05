@@ -7,17 +7,13 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 function censorMe(sentence, cenWords) {
     // 1. create censored word
-    const replaceWords = cenWords.map(ele => {
-        let str = '*';
-        for (let i = 1; i < ele.length; i++) str += '*';
-        return str;
-    });
+    const replaceWords = cenWords.map( ele => '*'.repeat(ele.length) );
 
     // 2. return censored sentence
     return sentence.split(' ').map(word => {
         for (let j = 0; j < cenWords.length; j++) {
             if (word.search(new RegExp(`^${censoredWords[j]},?\\.?$`, "ig")) !== -1) {
-                word = word.replace(cenWords[j], replaceWords[j])
+                word = word.replace(cenWords[j], replaceWords[j]);
             }
         }
         return word;

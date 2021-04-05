@@ -1,3 +1,4 @@
+const fs = require('fs');
 const axios = require('axios');
 
 
@@ -15,8 +16,9 @@ function combinePostsUsers(posts, users) {
         };
     });
 
-    // print combinedData
-    console.log(combinedData)
+    // save combinedData as json
+    const dataJSON = JSON.stringify(combinedData)
+    fs.writeFileSync('10.json', dataJSON);
 }
 
 Promise.all([axios.get(POSTS_URL), axios.get(USERS_URL)])
