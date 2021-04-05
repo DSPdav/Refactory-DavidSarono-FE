@@ -1,0 +1,32 @@
+[
+    {
+        "name": "DELL XPS 13",
+        "category": "Laptop",
+        "price": "Rp26.799.000"
+    },
+    {
+        "name": "Macbook Air",
+        "category": "Laptop",
+        "price": "Rp13.775.000"
+    },
+    {
+        "name": "LG V30 Plus",
+        "category": "Smartphone",
+        "price": "Rp10.499.000"
+    },
+    {
+        "name": "Xiaomi Mi 6",
+        "category": "Smartphone",
+        "price": "Rp5.399.000"
+    },
+    {
+        "name": "Samsung Galaxy J7",
+        "category": "Smartphone",
+        "price": "Rp3.549.000"
+    },
+    {
+        "name": "Xiaomi Redmi 5A",
+        "category": "Smartphone",
+        "price": "Rp1.199.000"
+    }
+]
