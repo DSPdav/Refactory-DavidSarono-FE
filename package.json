@@ -1,0 +1,11 @@
+{
+  "name": "Refactory-DavidSarono-FE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DSPdav/Refactory-DavidSarono-FE.git",
+  "author": "DSPdav <davidsaronoputro@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
